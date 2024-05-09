@@ -129,13 +129,13 @@ public class Login extends javax.swing.JFrame {
         String username = txtusername.getText();
         String pass = txtpass.getText();
         
-        if(username.equals("John") && pass.equals("123"))
+        if(username.equals("John") && pass.equals("123")) //username -check, password 123 
         {
             Main m = new Main();
             this.hide();
             m.setVisible(true);
         }
-        else 
+        else  
         {
            JOptionPane.showMessageDialog(this,"Username and password not match");
         }
